@@ -21,7 +21,6 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 /* ===== NAVIGATION STYLES ===== */
 #navbar {
     position: fixed;
@@ -60,4 +59,62 @@ body {
 
 .nav-link:hover {
     color: #ff6b9d;
+}
+/* ===== HERO SECTION STYLES ===== */
+.hero {
+    padding: 150px 0 100px;
+    background: #fff5f9;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #ff6b9d;
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #333;
+    border: 2px solid #ff6b9d;
 }
